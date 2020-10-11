@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_holding"
+            android:icon="@drawable/ic_holding"
+            android:title="Holdings" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_transaction"
+            android:title="Transactions" />
+    </group>
+
+    <item android:title="Refresh">
+        <menu>
+            <item
+                android:id="@+id/nav_refresh_holding"
+                android:icon="@drawable/ic_refresh_holding"
+                android:title="Refresh Holding" />
+            <item
+                android:id="@+id/nav_refresh_transaction"
+                android:icon="@drawable/ic_refresh_transaction"
+                android:title="Refresh Transaction" />
+        </menu>
+    </item>
+</menu>
